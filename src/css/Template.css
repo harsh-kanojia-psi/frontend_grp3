@@ -1,0 +1,81 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    h5 {
+    color: rgb(135, 135, 229);
+    }
+    .template{
+        font-style: italic;
+        width: 40vw;
+        height: 100%;
+        padding: 0px 20px 0 20px;
+        background-color: #fff;
+        float: right;
+        border-left: solid 4px rgb(199, 190, 190);
+        overflow-y: hidden !important;
+        scrollbar-width: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    .template::-webkit-scrollbar{
+        display: none;
+    }
+    .userInfoDiv {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -55px
+    }
+    .userInfoDiv img{
+
+        width: 20%;
+    
+        height: 17%;
+    
+        border: 1px gray solid;
+    
+        border-radius: 50%;
+        margin-top: 2rem;
+        
+    }
+    .nameInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 50px;
+    }
+    .resumeDetailsDiv {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .resumeDetailsDiv div {
+    width: 15vw;
+    margin-right: 30px;
+    }
+    .resumeDetailsDiv div p{
+    font-size: 1rem;
+    }
+    .nameHead{
+        color: rgb(135, 135, 229);
+    }
+    .skillsDiv{
+        
+        /* display: flex; */
+        position: absolute; 
+         padding-top: 17rem;
+    }
+    .certificationDiv{
+        margin-top: 15rem;
+    }
+    .educationalDiv{
+        margin-top: 2rem;
+    }
+    

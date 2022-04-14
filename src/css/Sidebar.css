@@ -1,0 +1,53 @@
+
+.sidebar{
+    position: fixed;
+    width: 20%;
+    border: none;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: #f1f1f1;
+}
+
+.btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+
+}
+
+.icon {
+    display:flex ;
+    flex-wrap: wrap;
+    
+}
+.icon h1{
+    margin-left: 7px;
+}
+.svg-inline--fa.fa-circle-left{
+    margin-top: 1rem;
+    margin-left: 1rem;
+   height: 2rem;
+   cursor: pointer;
+}
+.svg-inline--fa{
+    height: 1.5rem;
+}
+.middleicon {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    border: 1px  ;
+    background-color: rgb(186, 185, 185);
+    
+}
+.middleicon a{
+    color: rgb(90, 89, 89);
+    cursor: pointer;
+}
+.middleicon a:hover{
+    filter: brightness(5);
+}
+.btn {
+    filter: drop-shadow(1rem 1rem 1rem gray);
+  }

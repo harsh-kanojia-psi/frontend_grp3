@@ -1,0 +1,128 @@
+.workallform{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    border: none;
+    padding: 0 20px 20px 0px;
+    background-color: #fff;
+    margin: 100px 0 0 350px;
+}
+.workheading{
+    display: block;
+    width: 15vh;
+}
+.infoicon{
+    color: #000;
+    background-color: #fff;
+    font-weight: bold;
+}
+.worklabelinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.workinput1{
+    padding: 2px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: solid 2px rgb(199, 190, 190);
+    border-radius: 5px;
+    justify-content: right;
+}
+
+.workinput2{
+    padding: 2px 20px;
+    margin-bottom: 10px;
+    margin-left: 118px;
+    border: solid 2px rgb(199, 190, 190);
+    border-radius: 5px;
+    justify-content: right;
+}
+.workinput3{
+    padding: 2px 20px;
+    margin-bottom: 10px;
+    margin-left: 79px;
+    border: solid 2px rgb(199, 190, 190);
+    border-radius: 5px;
+    justify-content: right;
+}
+.workselect4{
+    width: 20vh;
+    cursor:pointer;
+    height: auto;
+    color: black;
+    border-radius: 5px;  
+    margin-left: 145px;
+    margin-bottom: 10px;
+}
+.workinput5{
+    padding: 2px 0;
+    margin-bottom: 10px;
+    margin-left: 113px;
+    border: solid 2px rgb(199, 190, 190);
+    border-radius: 5px;
+    justify-content: right;
+}
+.workinput55{
+    padding: 2px 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: solid 2px rgb(199, 190, 190);
+    border-radius: 5px;
+    justify-content: right;
+}
+.worktext6{
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    margin-left: 52px;
+    border: solid 2px rgb(199, 190, 190);
+    border-radius: 5px;
+    justify-content: right;
+}
+.workselect7{
+    width: 20vh;
+    cursor:pointer;
+    height: auto;
+    color: black;
+    border-radius: 5px;  
+    margin-left: 53px;
+    margin-bottom: 10px;
+}
+.worktext8{
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+    border: solid 2px rgb(199, 190, 190);
+    border-radius: 5px;
+    justify-content: right;
+}
+.worksubmit{
+    margin:10px;
+    position: fixed;
+    top: 0px;
+    left: 650px;
+    z-index: 5;
+    justify-content: right;
+    text-align: right;
+}
+.worksave{
+    margin: 10px;
+    padding: 8px 30px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(199, 190, 190);
+    border-radius: 20px;
+}
+.worklabelinputexp{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rr{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}

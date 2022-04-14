@@ -1,0 +1,25 @@
+.allform{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    border: none;
+    padding: 0 20px 20px 20px;
+    background-color: #fff;
+    margin: 150px 0 0 350px;
+}
+.submit{
+    margin:10px;
+    position: fixed;
+    top: 0px;
+    left: 650px;
+    z-index: 5;
+    justify-content: right;
+    text-align: right;
+}
+.save{
+    padding: 8px 30px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(199, 190, 190);
+    border-radius: 20px;
+}

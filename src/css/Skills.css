@@ -1,0 +1,111 @@
+.skillallform{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    border: none;
+    background-color: #fff;
+    margin: 100px 0 0 350px;
+}
+.skillheading{
+    display: block;
+    width: 15vh;
+}
+.skillthead tr th{
+    padding: 10px 20px;
+    background-color: rgb(199, 190, 190);
+    border: solid 1px rgb(163, 162, 162);
+}
+.skillbody tr td{
+    padding: 5px;
+    border: solid 1px rgb(163, 162, 162);
+}
+.skillsubmit{
+    margin:10px;
+    position: fixed;
+    top: 0px;
+    left: 650px;
+    z-index: 5;
+    justify-content: right;
+    text-align: right;
+}
+.skillsave{
+    padding: 8px 30px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(199, 190, 190);
+    border-radius: 20px;
+}
+.buttons{
+    padding:10px 0 0 240px;
+    width: 100%;
+    position: absolute;
+}   
+.button1{
+    width: 80px;
+    height: 45px;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-left: 25rem;
+   
+}
+.button2{
+    width: 80px;
+    height: 45px;
+    border-radius: 20px;
+    border-color:transparent ;
+    background-color: lightgrey;
+    margin: 0 10px 0 0;
+}
+.arrow{
+    width: 50px;
+    margin: 0px 0 0 10px;
+    background: linear-gradient(to right,Lightgrey 50%, darkgrey 50%);
+    border-color: lightgrey;
+}
+.search{
+    width: 123px;
+    height: 32px;
+    border-radius: 25px;
+    border-color: grey;
+    border-top-color: grey;
+    border-left-color: grey;
+    background-color: white;
+    margin: 10px 0px 20px 3px;
+
+}
+table{
+    
+    border-collapse: collapse;
+    border:2px solid lightgrey;
+    
+     
+}
+
+th{
+    padding:20px 55px;
+} 
+
+td{
+    padding: 10px 50px ;
+    border:2px solid lightgrey;
+}
+table tr{
+    border-color:lightgrey;
+}
+.skillTable th{
+     background-color: lightgrey;
+}
+i{
+    margin: 20px -25px 0px -25px;
+    border-color: transparent;
+    color:lightgrey
+    
+}
+.tablecol2{
+    width: 20px;
+}
+.tablecol1{
+    width:10px;
+}
+
